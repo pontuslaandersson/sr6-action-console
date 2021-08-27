@@ -312,6 +312,18 @@ function App() {
     }
   }
 
+  const getMinorAction = () => {
+    if (majorActions >= 1) {
+      const newMajorActions = majorActions - 1
+      setMajorActions(newMajorActions)
+      const newMinorActions = minorActions + 1
+      setMinorActions(newMinorActions)
+    }
+    else {
+      window.alert('No can do, chummer! Not enough minor actions! \n\nBetter get some wires!')
+    }
+  }
+
   const resetActions = () => {
     const newMinorActions = 1 + initiativeDice
     setMinorActions(newMinorActions)
@@ -347,6 +359,8 @@ function App() {
         <p className="neonText">Minor actions: {minorActions}</p>
         <p className="neonText">Major actions: {majorActions} (Max possible with trading: {Math.floor(majorActions + minorActions / 4)})</p>
         <button onClick={() => getMajorAction()}>Trade 4 minor actions for 1 major</button>
+        <button onClick={() => getMinorAction()}>Trade 1 major action for 1 minor</button>
+
         <h2 className="neonText">Action log</h2>
         <div>
           {actionLog && actionLog.map((item, index) => {
