@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #010a01;
 }
 
 .App-logo {
@@ -35,4 +36,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.action-list-container {
+  /**display: flex;*/
+  max-width: 33%;
+  margin: 10px;
+}
+
+.tooltip {
+  display: none;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+button {
+  /*display: block;*/
+  background-color: grey;
+  margin: 2px;
+}
+
+/* On smaller screens, where width is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 450px) {
+  /* Set headers to smaller sizes, and adjust width. */
+  p {font-size: 10px;}
+  h2 {font-size: 12px;}
+  h1 {font-size: 16px;}
+  button {margin: 1px; font-size: 10px;}
+  li {font-size: 10px;}
 }
