@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 //import logo from './logo.svg';
 import './App.css';
 //import ActionButton from './components/ActionButton/ActionButton'
-import {ActionList} from './components/ActionList/ActionList'
+import ActionList from './components/ActionList/ActionList'
 //import {BudgetOverview} from "./BudgetOverview";
 
 
