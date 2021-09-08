@@ -1,6 +1,9 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "shadowrun-action-console",
+  "version": "1.0.0",
+  "description": "Action helper for SR6",
+  "author": "Pontus Andersson",
+  "license": "MIT",
   "private": true,
   "homepage": "https://pontusandersson.tech/sr6-action-console",
   "dependencies": {
