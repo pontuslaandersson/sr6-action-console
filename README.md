@@ -8,6 +8,7 @@ This was made with React, in TypeScript.
 
 Ever had trouble keeping track of actions in a tabletop RPG? My players sure have, so I made this little tool for them. It keeps track of the actions you've taken over the round, so you don't have to worry beyond keeping track of your Initiative Dice.
 
+Live online version, for people who don't want to touch the code: https://pontusandersson.tech/sr6-action-console/
 
 # Instructions
 Run frontend (not that this has a backend ... yet!) with:
@@ -19,7 +20,5 @@ Run frontend (not that this has a backend ... yet!) with:
 ### yarn start
 
 ... to run development server locally.
-
-Or use the online version: https://pontusandersson.tech/sr6-action-console/
 
 Happy shadowrunning!
